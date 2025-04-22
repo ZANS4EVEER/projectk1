@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Es Teh Merchandise</title>
+  <link rel="stylesheet" href="merchandise.html" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo"><img src="images/v369_195.png" alt="logo esteh"></div>
+    <nav class="nav-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="merchandise.html">Menu</a>
+      <a href="#">Promo</a>
+      <a href="#">Profile</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="merchandise">
+        <div class="section-tabs">
+            <a href="#drinks" class="tab-link">Drinks</a> 
+            <a href="#merchandise" class="tab-link active">Merchandise</a>
+          </div>
+          
+      <div class="product-grid">
+
+        <!-- Product Items -->
+        <div class="product">
+          <img src="images/v369_129.png" alt="Custom Wheels">
+          <h3>Esteh Indonesia Custom Wheels (Car Toys - Miniature)</h3>
+          <p class="price">Rp 160.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_135.png" alt="Tumbler">
+          <h3>Tumbler Limited Edition</h3>
+          <p class="price">Rp 100.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_141.png" alt="T-Shirt JKT48">
+          <h3>T-Shirt Jas Merah Esteh Indonesia X Billionaires Project</h3>
+          <p class="price">Rp 120.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_147.png" alt="T-Shirt Senna">
+          <h3>T-Shirt Semua Akan Esteh Pada Waktunya</h3>
+          <p class="price">Rp 180.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_153.png" alt="Crewneck">
+          <h3>Esteh Crewneck Special Edition (Red)</h3>
+          <p class="price">Rp 340.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_159.png" alt="Coach Jacket">
+          <h3>Esteh Coach Jacket Special Edition</h3>
+          <p class="price">Rp 320.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+        <div class="product">
+          <img src="images/v369_165.png" alt="T-Shirt kolaborasi">
+          <h3>Esteh Indonesia T-Shirt Kebun/OutletEsteh Indonesia T-Shirt Kebun/Outlet</h3>
+          <p class="price">Rp 180.000</p>
+          <button class="buy-btn">BUY</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <div class="cart">
+    <h3>🛒 Keranjang Belanja</h3>
+    <ul id="cart-items"></ul>
+    <p id="cart-total">Total: Rp 0</p>
+    <div class="cart-buttons">
+      <button id="clear-btn">Clear All</button>
+      <button id="show-checkout-form">Checkout</button>
+    </div>
+    <div class="checkout-form" id="checkout-form" style="display: none;">
+      <h3>📦 Informasi Pengiriman</h3>
+      <form id="shipping-form">
+        <label for="nama">Nama Penerima</label>
+        <input type="text" id="nama" name="nama" required>
+    
+        <label for="alamat">Alamat Lengkap</label>
+        <textarea id="alamat" name="alamat" required></textarea>
+    
+        <label for="telepon">Nomor Telepon</label>
+        <input type="tel" id="telepon" name="telepon" required>
+    
+        <label for="catatan">Catatan Tambahan</label>
+        <textarea id="catatan" name="catatan"></textarea>
+    
+        <button type="submit" class="submit-btn">Kirim Pesanan</button>
+      </form>
+    </div>    
+  </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-info">
+      <p>@estehindonesia</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/esteh.indonesia?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+          <img src="images/v369_204.png" alt="Instagram" class="social-icon">
+          esteh.indodesia
+        </a>
+        <a href="https://youtube.com/@estehindonesiamedia?si=CIw-2B7IsXUV09pj" target="_blank">
+          <img src="images/v369_201.png" alt="YouTube" class="social-icon">
+          Esteh Indonesia Media
+        </a>
+        <a href="tiktok.com/@estehindonesia" target="_blank">
+          <img src="images/v369_199.png" alt="TikTok" class="social-icon">
+          estehindonesia
+        </a>
+        <a href="facebook.com/estehindonesiamedia" target="_blank">
+            <img src="images/v369_202.png" alt="facebook" class="social-icon">
+            Esteh Indonesia Media
+        </a>
+          
+      </div>
+    </div>
+    <div class="footer-image">
+      <img src="images/v369_208.png" alt="Es Teh Cans">
+    </div>
+  </footer>
+  
+
+  <!-- JS -->
+  <script src="merchandise.js"></script>
+</body>
+</html>
